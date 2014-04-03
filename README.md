@@ -3,9 +3,9 @@ examples-ch02-getting_started by BabyDuncan
 
 getting started with storm book code
 
-Ö´ĞĞ mvn exec:java -Dexec.mainClass="TopologyMain" -Dexec.args="src/main/resources/words.txt"
+Ö´æœ¬åœ°è¿è¡Œ mvn exec:java -Dexec.mainClass="TopologyMain" -Dexec.args="src/main/resources/words.txt"
 
-½á¹û£º
+è¿è¡Œç»“æœ
 
     -- Word Counter [word-counter-2] --
         really: 1

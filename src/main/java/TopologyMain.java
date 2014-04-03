@@ -21,7 +21,7 @@ public class TopologyMain {
         //Configuration
         Config conf = new Config();
         conf.put("wordsFile", args[0]);
-        conf.setDebug(false);
+        conf.setDebug(true);
         //Topology run
         conf.put(Config.TOPOLOGY_MAX_SPOUT_PENDING, 1);
         LocalCluster cluster = new LocalCluster();

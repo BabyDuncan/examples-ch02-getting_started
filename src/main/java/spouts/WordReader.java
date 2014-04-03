@@ -35,7 +35,7 @@ public class WordReader extends BaseRichSpout {
      */
     public void nextTuple() {
         /**
-         * The nextuple it is called forever, so if we have been readed the file
+         * The nex tuple it is called forever, so if we have been read the file
          * we will wait and then return
          */
         if (completed) {
